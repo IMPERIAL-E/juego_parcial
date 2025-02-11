@@ -48,5 +48,5 @@ while run == True:
     jugador_princ.dibujar(ventana) # Dibujar el personaje en la ventana
     pygame.display.update()  # Actualiza la pantalla
     
-
+#el origen del chavo
 pygame.quit()
