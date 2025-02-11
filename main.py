@@ -12,6 +12,10 @@ ventana = pygame.display.set_mode((constantes_del_juego.ANCHO_VENTANA, constante
 pygame.display.set_caption("MIND FEASTABLES") # Nombre del juego.
 
 # Variables de movimiento.
+mover_izquierda = False
+mover_derecha = False
+mover_arriba = False
+mover_abajo = False
 
 
 # Bucle principal del juego
