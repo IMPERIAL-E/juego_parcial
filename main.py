@@ -47,6 +47,5 @@ while run == True:
     ventana.fill((0, 0, 0))  # Limpia la pantalla con color negro
     jugador_princ.dibujar(ventana) # Dibujar el personaje en la ventana
     pygame.display.update()  # Actualiza la pantalla
-    #como te hago entender
-#el origen del chavo
+    
 pygame.quit()
