@@ -15,12 +15,14 @@ pygame.display.set_caption("MIND FEASTABLES") # Nombre del juego.
 run = True
 while run == True:
 
+    ventana.fill(constantes_del_juego.COLOR_BG)  # Limpia la pantalla con color    
     # Eventos del juego
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
 
-            # Eventos del teclado
+
+            # Eventos del teclado   
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_LEFT: # Si se presiona la tecla izquierda
                 jugador_princ.forma.move_ip(-5, 0)
