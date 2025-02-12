@@ -44,7 +44,6 @@ while run == True:
                 jugador_princ.forma.move_ip(0, 5)
 
     # Dibujar el personaje en la ventana
-    ventana.fill((0, 0, 0))  # Limpia la pantalla con color negro
     jugador_princ.dibujar(ventana) # Dibujar el personaje en la ventana
     pygame.display.update()  # Actualiza la pantalla
     
