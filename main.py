@@ -11,10 +11,12 @@ pygame.init()
 ventana = pygame.display.set_mode((constantes_del_juego.ANCHO_VENTANA, constantes_del_juego.ALTO_VENTANA))
 pygame.display.set_caption("MIND FEASTABLES") # Nombre del juego.
 
+Reloj = pygame.time.Clock() # FPS del juego
+
 # Bucle principal del juego
 run = True
 while run == True:
-
+    Reloj.tick(constantes_del_juego.FPS) # FPS del juego
     ventana.fill(constantes_del_juego.COLOR_BG)  # Limpia la pantalla con color    
     # Eventos del juego
     for event in pygame.event.get():
