@@ -2,10 +2,11 @@ import pygame
 import constantes_del_juego
 from personaje import Personaje
 
+pygame.init()
 # Inicializa el personaje en una posición específica
 jugador_princ = Personaje(x=350, y=50)
 
-pygame.init()
+
 
 # Configuración de la ventana
 ventana = pygame.display.set_mode((constantes_del_juego.ANCHO_VENTANA, constantes_del_juego.ALTO_VENTANA))
