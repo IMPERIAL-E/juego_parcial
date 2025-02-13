@@ -32,10 +32,10 @@ while run == True:
             delta_x = constantes_del_juego.VELOCIDAD
 
     if mover_izquierda == True:
-            delta_x = constantes_del_juego.VELOCIDAD
+            delta_x = -constantes_del_juego.VELOCIDAD
 
     if mover_arriba == True:
-            delta_y = constantes_del_juego.VELOCIDAD
+            delta_y = -constantes_del_juego.VELOCIDAD
 
     if mover_abajo == True:
             delta_y = constantes_del_juego.VELOCIDAD
